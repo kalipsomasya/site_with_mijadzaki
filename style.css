@@ -1,0 +1,87 @@
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-image:linear-gradient(180deg,rgba(207, 207, 207, 0.5),rgba(121, 121, 121, 0.5)), url(https://wotpack.ru/wp-content/uploads/2023/01/MV5BYTIwM2NjOTItZGI2ZS00YzQ0LWJiMjAtZjA1Y2RiNzliMmVmXkEyXkFqcGdeQXVyNjkxODg0ODY-._V1_.jpg);
+}
+
+h1 {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin-left: -130px;
+}
+
+h2 {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin-left: -58px;
+}
+
+h1, h2 {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+p {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+
+}
+
+ul {
+    display: inline-block;
+    position: relative;
+    left: 43%;
+}
+
+p, ul {
+    font-family: 'Varela Round', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    background: rgba(196, 196, 196, 0.5);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pravoe {
+    position: absolute;
+    left: 50%;
+    margin-left: 45px;
+    width: 100px;
+    top: 170px;
+}
+
+.levoe {
+    position: absolute;
+    left: 50%;
+    margin-left: -145px;
+    width: 100px;
+    top: 280px;
+    transform: rotateY(180deg);
+}
+
+.center {
+    height: 250px;
+    position: relative;
+    left: 50%;
+    margin-left: -239px;
+}
+
+.vtekste {
+    width: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -590px;
+    float: left;
+    bottom: 1em;
+}
